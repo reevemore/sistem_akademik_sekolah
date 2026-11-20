@@ -1,0 +1,13 @@
+body { background:#f4f6f9; }
+.content-header { padding: 18px 0 10px; }
+.content-header h1 { font-size: 24px; margin:0; font-weight:600; }
+.card-box { background:#fff; border-radius:6px; padding:20px; margin-bottom:20px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+.stat-card { min-height:110px; }
+.stat-number { font-size:28px; font-weight:600; }
+.table thead th { white-space:nowrap; }
+.login-wrapper { min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px; background:#eef1f5; }
+.login-panel { width:100%; max-width:430px; background:#fff; padding:32px; border-radius:8px; box-shadow:0 8px 30px rgba(0,0,0,.10); }
+.login-title { font-weight:600; margin-bottom:4px; }
+.sidebar-nav ul li a.active { background:#f1f2f7; font-weight:600; }
+.form-actions { display:flex; gap:8px; }
+@media print { .main-sidebar,.main-header,.content-header .btn,.no-print {display:none!important;} .content-wrapper{margin:0!important;} }
